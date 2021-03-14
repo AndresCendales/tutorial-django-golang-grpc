@@ -4,3 +4,6 @@ djangorestframework==3.12.2     # https://www.django-rest-framework.org/
 
 # Server
 gunicorn==20.0.4                # https://github.com/benoitc/gunicorn
+
+# Database
+psycopg2-binary==2.8.6          # https://github.com/psycopg/psycopg2

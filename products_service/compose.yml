@@ -15,5 +15,11 @@ services:
       - .:/app
     depends_on:
       - db
+    environment:
+      - DB_PG_NAME=postgres
+      - DB_PG_USER=postgres
+      - DB_PG_PASSWORD=postgres
+      - DB_PG_HOST=db
+      - DB_PG_PORT=5432
     ports:
       - "8000:8000"

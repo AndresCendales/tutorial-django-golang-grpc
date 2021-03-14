@@ -8,4 +8,4 @@ En el siguiente link se encuentran descritos:
 Simularemos un escenario en donde requieras construir dos servicios. Supongamos que deseas construir el backend de tu e-commerce, en el cual el frontend se comunica con el primer servicio Products Service, este se encargara de gestionar todas las relaciones de los productos con usuarios, clientes, etc.
 Por otro lado, decides crear un segundo servicio Specs Service que te permita gestionar las especificaciones tecnicas y de calidad de los productos. Ya que tienen una estructura NoSQL tambien decides usar una base de datos exclusiva para ese servicio en MongoDB.
 De esa manera la arquitectura se vera reflejada asi:
-![](https://miro.medium.com/max/700/1*cGr6UJG-ezZ82UPUzBzDVg.jpeg)
+![](https://cdn-images-1.medium.com/max/800/1*thDHkYFtwYkyxt72Fmv9yA.jpeg)

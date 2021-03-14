@@ -11,8 +11,12 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    command: bash -c "python manage.py makemigrations --noinput"
+    command: bash -c "python manage.py migrate --noinput"
+    command: bash -c "python manage.py runserver 0.0.0.0:8000"
     volumes:
       - .:/app
+
     depends_on:
       - db
     environment:
